@@ -1,0 +1,80 @@
+h1 {
+    color: #1a73e8; 
+}
+
+p, span {
+    color: #2b7a78; 
+}
+
+#p4 {
+    color: #f44336;
+     font-family: "Arial Nova Cond", Arial, sans-serif;	
+}
+
+#s2 {
+    color: #69308b; 
+}
+
+.color2 { 
+    color: #ffed52;
+}
+
+.forUL {
+	position: static;
+	width: 300px;
+    height: 140px;
+    border-style: solid;
+    border-color: red;
+	background-color: #f2f2f2;
+		
+}
+
+.linkBox {
+	position: relative;
+    width: 300px;
+    height: 140px;
+    border: 2px solid #000;
+    margin-bottom: 40px;
+    background-color: #f2f2f2;
+}
+
+
+.textPosition {
+	position: absolute;
+	bottom: 10px;
+    right: 10px;
+}
+
+
+
+.fixed-box {
+  position: fixed;
+  width: 50px;
+  height: 20px;
+  top: 150px;
+  left: 400px;
+}
+
+#b1 {
+  background-color: pink;
+  z-index: 3;
+}
+
+#b2 {
+  background-color: green;
+  z-index: 2;
+}
+
+#b3 {
+  background-color: skyblue;
+  z-index: 1;
+}
+
+.ForScrolling {
+	border: 2px solid #000;
+	overflow: auto;
+	width: 300px;
+    height: 100px;
+}
+
+
