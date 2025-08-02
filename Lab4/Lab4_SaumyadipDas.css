@@ -1,0 +1,68 @@
+body 
+{
+    background-color: aliceblue;
+    font-family: Arial, sans-serif;
+}
+
+h2 
+{
+    margin-top: 30px;
+    color: navy;
+}
+
+input, button 
+{
+    margin: 5px 0;
+    padding: 5px 8px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.section 
+{
+    background-color: lightblue;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 16px 0;
+}
+
+#bmiResult 
+{
+    background-color: lavender;
+    border-radius: 5px;
+	height: 40px;
+	width: 400px;
+}
+
+#colorBox 
+{
+    background-color: lemonchiffon;
+    border-radius: 5px;
+	height: 40px;
+	width: 400px; 
+}
+
+#authResult 
+{
+    background-color: lightgreen;
+	border-radius: 5px;
+	height: 40px;
+	width: 500px;
+}
+
+#counterBox, #height, #weight, #colorInput, #username, #password, #Cpassword 
+{
+    background-color: white;
+}
+
+button 
+{
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+}
+button:hover 
+{
+    background-color: steelblue;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lab Task 3</title>
+  <link rel="stylesheet" href="lab3Task1.css">
+</head>
+<body>
+  <h2>1. Counter</h2>
+  <input id="counterBox" type="number" value="0" >
+  <button id="plusBtn" type="button">+</button>
+  <button id="minusBtn" type="button">-</button>
+  
+  <br>
+  
+  <h2>2. BMI Calculator</h2>
+  <label for="height">Enter your Height (cm): </label>
+  <input id="height" type="number" min="1">
+  <br><br>
+  <label for="weight">Enter your Weight (kg): </label>
+  <input id="weight" type="number" min="1">
+  <br><br>
+  <button id="bmiBtn" type="button">Calculate BMI</button>
+  <br>
+  <br>
+  <label for="bmiResult">BMI:</label>
+  <div id="bmiResult"></div>
+  
+  <br>
+  
+  <h2>3. Change Box Text Color</h2>
+  <label for="colorInput">Enter a color (name or hex): </label>
+  <input id="colorInput" type="text">
+  <br>
+  <button id="colorBtn" type="button">Change Color</button>
+  <div id="colorBox" style="margin-top: 20px; padding: 10px; border: 1px solid #000;">
+    It is a box with dynamic color
+  </div>  
+  
+  
+  <h2>4. Form Authorization:</h2>
+  <label for="username">Username:</label>
+  <input id="username" type="text">
+  <br>
+  <label for="password">Password:</label>
+  <input id="password" type="password">
+  <br>
+  <label for="Cpassword">Confirm Password:</label>
+  <input id="Cpassword" type="password">
+  <br>
+  <button id="btn1">Validate</button>
+  <br>
+  <div id="authResult"></div>  
+  
+  
+  
+  <script src="lab3.js"></script>
+</body>
+</html>
