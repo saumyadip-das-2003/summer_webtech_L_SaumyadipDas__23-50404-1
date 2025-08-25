@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Form Validation with PHP</title>
+</head>
+<body>
+<h1>Form Validation</h1>
+
+<form action="process.php" method="post" id="f1" enctype="multipart/form-data">
+  <table>
+    <tr>
+      <td>Name:</td>
+      <td><input type="text" name="name"></td>
+    </tr>
+    <tr>
+      <td>E-mail:</td>
+      <td><input type="text" name="email"></td>
+    </tr>
+    <tr>
+      <td>Website:</td>
+      <td><input type="text" name="website"></td>
+    </tr>
+    <tr>
+      <td>Comment:</td>
+      <td><textarea name="comment"></textarea></td>
+    </tr>
+    <tr>
+      <td>Gender:</td>
+      <td>
+	  <input type="radio" name="gender" value="male" checked>Male<br>
+        <input type="radio" name="gender" value="female" >Female<br>
+        <input type="radio" name="gender" value="other">Other<br>
+      </td>
+    </tr>
+	<tr>
+      <td>File:</td>
+      <td><input type="file" name="file"></td>
+    </tr>
+  </table>
+  <input type="submit">
+</form>
+
+</body>
+
+</html>
